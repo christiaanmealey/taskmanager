@@ -1,0 +1,42 @@
+.modal {
+  position: flex;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+dialog {
+  border: none !important;
+  border-radius: calc(5px * var(--ratio));
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 1.6rem;
+  max-width: 768px;
+  margin: auto;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+dialog form {
+  width: 300px;
+}
+
+dialog form {
+  width: 300px;
+}
+
+dialog input,
+dialog textarea,
+dialog select {
+  width: 100%;
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex.flex-space-between {
+  justify-content: space-between;
+}

@@ -1,0 +1,23 @@
+.ql-editor {
+  min-height: 150px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f9fafb;
+}
+
+.description h1 {
+  font-size: 1.5rem !important;
+}
+
+.description ul,
+.description ol {
+  margin-left: 1rem;
+}
+
+.description ul {
+  list-style: circle;
+}
+
+.description ol {
+  list-style: decimal;
+}

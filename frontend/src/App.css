@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.app-container {
+}
+
+.container {
+}
+
+.headerNav {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0 0.35rem;
+  border-bottom: 1px solid rgba(100, 113, 142, 0.25);
+  overflow: scroll;
+  text-wrap: nowrap;
+  font-size: 0.8rem;
+}
+
+.headerNav::-webkit-scrollbar {
+  display: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline;
+  padding-bottom: 0.25rem;
+  margin: 0 0.75rem;
+}
+
+nav ul li.active {
+  border-bottom: 2px solid #ff3d00;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-height: 100px;
+}
+
+.flex-row div {
+  display: flex;
+  flex: 1;
+}
+
+.task-list-container {
+  background-color: #f9f9f9;
+  padding: 0.25rem;
+  border-radius: 5%;
+}
+
+.task-list {
+  list-style: none;
+}
+
+.task-item {
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+  border-radius: 2.5%;
+}
+
+.no-tasks {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#globalAddTaskBtn {
+  font-size: 2rem;
+  width: 40px;
+  border: 1px solid #d9d9d9;
+  color: #c9c9c9;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bright-blue-txt {
+  color: #1b98e0;
+}
+
+.light-blue-txt {
+  color: #00a6fb;
+}
+
+.teal-txt {
+  color: #028090;
+}
+
+.med-aqua-txt {
+  color: #56c0e0;
+}
+
+.dark-txt {
+  color: #282c34;
+}
+
+.pastel-blue-txt {
+  color: #a2d5f2;
+}
+
+/* reds */
+.coral-txt {
+  color: #ff6b6b;
+}
+
+.soft-orange-txt {
+  color: #ff8a5b;
+}
+
+.bold-orange-txt {
+  color: #ff3d00;
+}
+
+.rich-orange-txt {
+  color: #f95738;
+}
+
+.deep-red-txt {
+  color: #d83a56;
+}
+
+.bright-blue-bg {
+  background-color: #1b98e0;
+}
+
+.bright-blue-border {
+  border-color: #136c9e;
+}
+
+.dark-blue-border {
+  border-color: #034d6e;
+}
+
+.dark-blue-bg {
+  background-color: #034d6e;
+}
+
+.dark-blue-txt {
+  color: #034d6e;
+}
+
+.light-blue-bg {
+  background-color: #00a6fb;
+}
+
+.teal-bg {
+  background-color: #028090;
+}
+
+.med-aqua-bg {
+  background-color: #56c0e0;
+}
+
+.dark-bg {
+  background-color: #282c34;
+}
+
+.pastel-blue-bg {
+  background-color: rgba(200, 213, 242, 0.25);
+}
+
+/* reds */
+.coral-bg {
+  background-color: #ff6b6b;
+}
+
+.soft-orange-bg {
+  background-color: #ff8a5b;
+}
+
+.soft-orange-border {
+  border-color: #ff8a5b;
+}
+
+.bold-orange-bg {
+  background-color: #ff3d00;
+}
+
+.bold-orange-border {
+  border-color: #cc1b00;
+}
+
+.dark-orange-bg {
+  background-color: #cc1b00;
+}
+
+.rich-orange-bg {
+  background-color: #f95738;
+}
+
+.deep-red-bg {
+  background-color: #d83a56;
+}
+
+.light-deep-red-text {
+  background-color: #e94b67;
+}
