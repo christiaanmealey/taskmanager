@@ -32,20 +32,6 @@ app.use('/ws', socketRoutes);
 
 const socketWorker = new Worker('./src/workers/socketWorker.js');
 
-// function solve(b1, b2) {
-//     const num1 = parseInt(b1, 2);
-//     const num2 = parseInt(b2, 2);
-    
-//     const binaryResult = (num1 + num2).toString(2);
-//     console.log(binaryResult.padStart(32, '0'));
-// }
-
-// const wfile = fs.promises.writeFile('./src/test.txt', 'hello world');
-// wfile.then(() => {
-//     console.log('file created');
-// })
-// solve("00000000000000000000000000000111", "00000000000000000000000000001000");
-
 server.listen(3000, () => {
     console.log('server listening');
 });
